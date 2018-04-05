@@ -1,7 +1,3 @@
-function
-shout(string) {
-}
-
 function shout(string) {
   return string.toUpperCase()
 }
@@ -11,8 +7,23 @@ whisper(string) {
   return string.toLowerCase()
 }
 
-var string = "YES INDEED!"
-function logShout() {
-  return string.toUpperCase()
+function 
+logShout(string) {
+  console.log('HELLO')
 }
+
+function 
+logWhisper(string) {
+  console.log('hello')
+}
+
+function sayHiToGrandma(string) {
+if ('hello')
+return "I can't hear you!";
+if ('HELLO')
+return "YES INDEED!";
+if ('I love you, Grandma.')
+return "I love you, too."
+}
+
 
